@@ -1,0 +1,136 @@
+html,head,body{
+    width: 100%;
+    background-color: #D3D3D3;
+        font-family: 'Lobster';
+}
+upperNav{
+    right: 20px;
+    position: fixed;
+    display: flex;
+    text-align:center;
+    flex-direction: row-reverse;
+}
+upperNav a{
+    padding: 2px;
+    margin-right: 5px;
+    font-size:22px;
+}
+sideNav{
+    background-color:darkgray;
+    left: 20px;
+    bottom: 20px;
+    position: fixed;
+    display: flex;
+    text-align:center;
+    color: #303030;
+    flex-direction: row-reverse;
+}
+h1{
+    color: #686868;
+    font-size: 50px;
+}
+header{
+    padding: 10px;
+    margin-top: 50px;
+    width: 100%;
+    height: 130px;
+    align-items: flex-end;
+    text-align: center;
+}
+
+body contents{
+     margin:0 auto;
+    width: 800px;
+    height: 1000px;
+   
+    display: flex;
+}
+contents{
+    display: flex;
+    width: 100%;
+}
+#btnNaver, #btnGoogle{
+    width: 80px;
+    height: 30px;
+    border-radius: 0.1em;
+}
+#btnNaver{
+    color: #19A416;
+    background-color: white;    
+}
+#btnGoogle{
+    color: white;
+    background-color: #909090; 
+}
+header h1{
+    height: 100%;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+section,aside{
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: white
+}
+#sideSection,aside{
+    width: 134px;
+    height: ;
+}
+
+#sideSection tel, #sideSection address{
+margin:0 auto;
+}
+contents section *{
+      text-align: center;
+}
+contents section h3{
+    text-align: left;
+}
+#userImage{
+    margin-left: auto;
+    margin-right: auto;
+}
+#userImage{
+    margin-top: 10px;
+    border: 10px solid #686868;
+    padding-top: 10px;
+    text-align: center;
+     width: 100px;
+    height: 100px;
+    background-color:gra; 
+    border-radius: 0.5em;
+}
+#btnAddNeighbor{
+    margin-top: 10px;
+    background-color: white;
+    border: 3px solid gray;
+}
+table, tr, th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.tableColor{
+    font-family: 'Do Hyeon',sans-serif;
+    background-color: #C4C4C4;
+}
+#contentsImage{
+    width: 160px;
+    height: 80px;
+    background-color: #686868; 
+    border-radius: 0.5em;
+}
+
+aside{
+    padding-top:50px;
+    text-align: center;
+}
+footer{
+    margin:0 auto;
+    padding: 20px;
+    bottom: 0;
+    text-align: center;
+    background-color: #D3D3D3;
+    color: #808080;
+}
